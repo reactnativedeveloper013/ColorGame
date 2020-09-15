@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1597785090,
+	"version": 1600177850,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -11,6 +11,7 @@
 		"images/btn_archivement-sheet0.png",
 		"images/button-sheet0.png",
 		"images/button-sheet1.png",
+		"images/revive-sheet0.png",
 		"images/purchase_icon-sheet0.png",
 		"images/porchase_status-sheet0.png",
 		"images/btnratait-sheet0.png",
