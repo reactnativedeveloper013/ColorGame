@@ -47,7 +47,7 @@
 	<script>
 
 function functionSendScoreWithoutRevive(SCORE){
-const data= { score:SCORE, revived:false }
+const data= { score:SCORE, revived:false, test:'winsss' }
   setTimeout(function(){ window.ReactNativeWebView.postMessage(JSON.stringify({data})); }, 2500);
 };
 
