@@ -48,17 +48,17 @@
 
 function functionSendScoreWithoutRevive(SCORE){
 const data= { score:SCORE, revived:false, }
-  setTimeout(function(){ window.ReactNativeWebView.postMessage(JSON.stringify({data})); }, 750);
+   window.ReactNativeWebView.postMessage(JSON.stringify({data}));
 };
 
 function functionReviveUser(){
 const data= { requestRevive:true }
-  setTimeout(function(){ window.ReactNativeWebView.postMessage(JSON.stringify({data})); }, 750);
+  window.ReactNativeWebView.postMessage(JSON.stringify({data}));
 };
 
 function functionSendScoreWithRevive(SCORE){
 const data= { score:SCORE, revived:true}
-  setTimeout(function(){ window.ReactNativeWebView.postMessage(JSON.stringify({data})); }, 750);
+  window.ReactNativeWebView.postMessage(JSON.stringify({data}));
 }
 	</script>
 	<script>
