@@ -21048,7 +21048,7 @@ cr.plugins_.Sprite = function(runtime)
 		};
 		if (url_.substr(0, 5) !== "data:" && crossOrigin_ === 0)
 			img["crossOrigin"] = "anonymous";
-		// this.runtime.setImageSrc(img, url_);
+		this.runtime.setImageSrc(img, url_);
 	};
 	Acts.prototype.SetCollisions = function (set_)
 	{
